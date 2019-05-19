@@ -1,0 +1,567 @@
+@font-face {
+    font-family: 'PoliceParty';
+    src: url('partybusiness.ttf');
+}
+@font-face {
+    font-family: 'PoliceTitre';
+    src: url('anicm___.ttf');
+}
+@font-face {
+    font-family: 'PoliceSymbole';
+    src: url('tngani.ttf');
+}
+.top
+{
+  padding: 0;
+}
+.nav-link
+{
+  font-family: 'PoliceTitre';
+}
+body
+{
+ font-family: "PoliceParty";
+}
+.carousel-caption{
+max-width: 800px;
+top: 50%;
+transform: translateY(-40%);
+}
+.carousel-caption.d-none.d-md-block
+{
+  font-size: 50px;
+  padding-bottom:20px;
+}
+.orange
+{
+background-color: #FF5A0B;
+color:  white;
+font-size: 18px;
+}
+
+.navbar-brand
+{
+  font-family: "PoliceTitre";
+  font-size: 21px;
+  margin-right: 20px;
+}
+
+.nav-link:hover
+{
+  text-decoration: underline;
+}
+.TextCarousel
+{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.symbolUn
+{
+  font-family: "PoliceSymbole";
+  color: #FF5A0B;
+}
+#fellows
+{
+  font-family: "PoliceTitre";
+  font-size: 25px;
+  padding-top: 20px;
+}
+.petiteLigne
+{
+  font-size: 17px;
+  font-family: "PoliceTitre";
+}
+.FellowsWanted
+{
+  
+  background-image: url(bg_light.png);
+  height: 5em;
+}
+.row.fellows
+{
+  padding: 0;
+  background-image: url(bg_light.png);
+}
+.nav-fill
+{
+background-image: url(bg_light.png);
+}
+.row.fill
+{
+background-image: url(bg_light.png);
+
+}
+#navbarNav {
+  margin-left: 2%;
+}
+.nav-link.pills
+{
+  color: #7C7C7C;
+
+}
+.nav-link.pills.active
+{
+  color: #7C7C7C;
+}
+.nav-link.pills:hover
+{
+  color: #FF5A0B;
+}
+.nav-link.pills.active:hover
+{
+  color: #FF5A0B;
+}
+
+.symbolb
+{
+  font-family: "PoliceSymbole";
+  font-size: 25px;
+}
+
+.nav.justify-content-center
+{
+  padding-top: 5em;
+  
+}
+.card
+{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-image: url(bg_light.png);
+}
+.photo
+{
+  padding: 0;
+}
+.card-img-top
+{
+  border:5px solid black;
+}
+.card-body
+{
+  background-color: black;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.card-title
+{
+  font-size: 33px;
+  color: #7C7C7C;
+}
+
+.image
+{
+  border : 5px black solid;
+  border-radius: 00px;
+  box-shadow:1px 1px 0px black;
+  opacity: 0.6;
+  max-width: 100%;
+  height: auto;
+  
+}
+.Gandalf
+{
+  position:absolute;
+  font-size: 50px;
+  color: white;
+  top: 200px;
+  text-align: center;
+  font-weight:bold;
+  margin-left:80px;
+
+}
+
+.reward
+{
+  position:absolute;
+  width:50%;
+  font-size:30px;
+  color:black;
+  top:10%;
+  text-align:center;
+  box-shadow: 3px 3px 3px grey inset;
+  opacity:0.85;
+  left:20%;
+  background-color:#F7F7F7;
+  border-radius: 10px;
+}
+.money
+{
+  color:#FF3021
+}
+
+.mini_Gandalf
+{
+  position:absolute;
+  padding-bottom: 2%;
+  padding-left: 130px;
+  font-size: 30px;
+  color: white;
+  top: 60%;
+  text-align: center;
+  font-weight:bold;
+  opacity:0;
+  vertical-align: top;
+ } 
+.containerUn:hover .image
+{
+  opacity: 1;
+}
+.containerUn:hover .Gandalf
+{
+  opacity: 0;
+  
+}
+.containerUn:hover .reward
+{
+  opacity:0;
+}
+.containerUn:hover .mini_Gandalf
+{
+  opacity:1;
+}
+
+.rewardAragord
+{
+  position:absolute;
+  width:50%;
+  font-size:30px;
+  color:black;
+  top:10%;
+  text-align:center;
+  box-shadow: 3px 3px 3px grey inset;
+  opacity:0.85;
+  left:25%;
+  background-color:#F7F7F7;
+  border-radius: 10px;
+}
+
+.mini_aragord
+{
+  position:absolute;
+  padding-bottom: 2%;
+  padding-left: 130px;
+  font-size: 30px;
+  color: white;
+  top: 60%;
+  text-align: center;
+  font-weight:bold;
+  opacity:0;
+  vertical-align: top;
+  
+ } 
+ .aragord
+{
+  position:absolute;
+  font-size: 50px;
+  color: white;
+  top: 200px;
+  text-align: center;
+  font-weight:bold;
+  margin-left:100px;
+}
+.containerUn:hover .rewardAragord
+{
+  opacity:0;
+}
+.containerUn:hover .mini_aragord
+{
+  opacity:1;
+}
+.containerUn:hover .aragord
+{
+  opacity:0;
+}
+.dead
+{
+  position:absolute;
+  width:50%;
+  font-size:50px;
+  color:#FF3021;
+  top:10%;
+  text-align:center;
+  opacity:0.85;
+  left:23%;
+  
+  border-radius: 10px;
+}
+
+.mini_gimli
+{
+  position:absolute;
+  padding-bottom: 2%;
+  padding-left: 130px;
+  font-size: 30px;
+  color: white;
+  top: 60%;
+  text-align: center;
+  font-weight:bold;
+  opacity:0;
+  vertical-align: top;
+ } 
+ .gimli
+{
+  position:absolute;
+  font-size: 50px;
+  top: 200px;
+  text-align: center;
+  font-weight:bold;
+  margin-left:130px;
+  text-decoration: line-through;
+  text-decoration-color: #FF5A0B;
+  color:white;
+
+}
+.containerUn:hover .rewardAragord
+{
+  opacity:0;
+}
+.containerUn:hover .mini_gimli
+{
+  opacity:1;
+}
+.containerUn:hover .gimli
+{
+  opacity:0;
+}
+.row.captured
+{
+  background-image: url(bg_light.png);
+}
+
+.media
+{
+  background-image: url(bg_dark.png);
+  color: white;
+  margin-top: 60px;
+}
+.mt-0.mb-1
+{
+  padding-top: 50px;
+  font-size: 21px;
+  font-family: "PoliceTitre";
+}
+.blabla
+{
+  font-size: 25px;
+  color:#7C7C7C;
+  padding-top: 20px;
+}
+.btn.btn-lg
+{
+justify-content: center;
+margin-bottom: 60px;
+font-family: "PoliceTitre";
+background-color: white;
+margin-top: 20px;
+color: #FF5A0B;
+}
+.ml-3.rounded-circle
+{
+  margin-top: 100px;
+  margin-right: 20px;
+}
+.BestHun
+{
+  font-family: "PoliceTitre";
+  margin-left: 400px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color: White;
+  color: #FF5A0B;
+}
+.container.hunter
+{
+  background-image: url(bg_light.png);
+}
+.best
+{
+  background-image: url(bg_light.png);
+  padding-top: 50px;
+  font-size: 21px;
+  font-family: "PoliceTitre";
+  padding-left: 60px;
+}
+.media-body.hun
+{
+ background-image: url(bg_light.png); 
+}
+.mt-0.hun
+{
+  color: #FF5A0B;
+  padding-left: 20px;
+  font-size: 60px;
+  background-image: url(bg_light.png);
+}
+.capture
+{
+  color: black;
+  font-size: 30px;
+  background-image: url(bg_light.png);
+  margin-left: 20px;
+}
+.row.hun
+{
+  background-image: url(bg_light.png);
+  margin-bottom: 30px;
+}
+.align-self-center.mr-3.hun
+{
+  background-image: url(bg_light.png);
+}
+.container.tab
+{
+  background-image: url(bg_light.png);
+  padding: 0;
+}
+.mt-0.mb-1.tab
+{
+  padding-top: 50px;
+  font-size: 21px;
+  font-family: "PoliceTitre";
+  padding-left: 60px;
+  background-image: url(bg_dark.png);
+  color:white;
+}
+.col-xs-12.col-sm-6.hun
+{
+  padding-bottom: 40px;
+  background-image: url(bg_light.png);
+}
+.Race
+{
+  padding-left: 20px;
+}
+
+.row.ring
+{
+  background-image: url(bg_dark.png);
+  padding: 0;
+  margin-top: 20px;
+}
+.card-header
+{
+  font-size: 21px;
+  font-family: "PoliceTitre";
+  color: white;
+  background-color: #FF5A0B
+  padding-top: 50px;
+}
+.container.ring
+{
+  background-image: url(bg_dark.png);
+}
+.row.ri
+{
+ background-image: url(bg_dark.png);
+ padding-left: 50px;
+ padding-right: 50px;
+ padding-bottom: 50px;
+
+
+}
+.col-12.card.ring
+{
+  border-top-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+}
+.card.mt-3
+{
+  background-image: url(bg_dark.png);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  margin-left: 0;
+}
+.card-body-2 {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.table {
+    background-color: #ffffff;
+}
+
+.title {
+    font-size: 20px;
+}
+
+th, td {
+    width: 50%;
+    color: #000000;
+}
+.card-header {
+    background-color: #ff6b00;
+    color: #ffffff;
+}
+
+.card-text {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+.row.justify-content-center.or
+{
+  background-color: #FF5A0B;
+ 
+}
+.one
+{
+   color:  white;
+   font-size: 22px;
+   margin-left: 20px;
+}
+li
+{
+  list-style: none;
+}
+.blockquote-footer {
+    position: relative;
+    left: 400px;
+}
+.button3 {
+    display: block;
+    width: 400px;
+    line-height: 35px;
+    background: #000000;
+    color: #ff6b00;
+    font-weight: bold;
+    text-align: center;
+ 
+}
+.container.us {
+    background-image: url(bg_dark.png);
+
+}
+.btn {
+    display: block;
+    margin: 0 auto;
+    line-height: 20px;
+    background: #ffffff;
+    color: #ff6b00;
+    border: groove;
+    font-weight: bold;
+    text-align: center;
+  }
+  .btn:hover {
+    background: #ff6b00;
+    color: #ffffff;
+    border: none;
+}
+.col-xs-12.col-md-6.noir
+{
+  background-image: url(bg_dark.png);
+}
+.contact {
+    background-image: url(bg_dark.png);
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
